@@ -1,0 +1,83 @@
+{
+  "Project1": {
+    "name": "Pig game",
+    "URL": "https://pig-game-joanna.netlify.app/",
+    "description": [
+      "Uses Sass library",
+      "Vanilla JS - DOM Manipulation",
+      "Deploy on Netflix"
+    ],
+    "image": "/piggame.jpg",
+    "github": "https://github.com/JoannaMarieDiaz/pig-game"
+  },
+  "Project2": {
+    "name": "Mapty",
+    "URL": "https://mapty-joanna.netlify.app/",
+    "description": [
+      "Use Geolocation API for location tracking- Leaflet",
+      "Object Oriented Programming",
+      "Vanilla JS"
+    ],
+    "image": "/images/mapty.png",
+    "github": "https://github.com/JoannaMarieDiaz/Projects/tree/master/Mapty"
+  },
+  "Project3": {
+    "name": "Forkify",
+    "URL": "https://forkify-app-joanna.netlify.app",
+    "description": [
+      "Vanilla JS",
+      "Uses Sass library",
+      "Uses Object Oriented Programming",
+      "Fetching data from API using Async function",
+      "Implemented MVC architecture"
+    ],
+    "image": "/forkify.png",
+    "github": "https://github.com/JoannaMarieDiaz/Forkify.git"
+  },
+  "Project4": {
+    "name": "YelpCamp",
+    "URL": "https://yelp-camp-joanna.herokuapp.com/",
+    "description": [
+      "Uses MongoDB and Mongoose and Passport",
+      "Uses Express",
+      "Uses Joi Middleware for Express Validation",
+      "Connect to Mapbox API for Geolocation"
+    ],
+    "image": "/images/yelpcamp.png",
+    "github": "https://github.com/JoannaMarieDiaz/YelpCamp"
+  },
+  "Project5": {
+    "name": "Budget App",
+    "URL": "https://pig-game-joanna.netlify.app/",
+    "description": [
+      "Uses React Framework",
+      "Basic State maniputation",
+      "Uses Bootstrap Framework"
+    ],
+    "image": "/images/budgetApp.png",
+    "github": "https://github.com/JoannaMarieDiaz/Projects/tree/master/budgetapp"
+  },
+  "Project6": {
+    "name": "Burger App",
+    "URL": "https://pig-game-joanna.netlify.app/",
+    "description": [
+      "Uses React Framework",
+      "Basic State maniputation",
+      "Uses Bootstrap Framework"
+    ],
+    "image": "/images/budgetApp.png",
+    "github": "https://github.com/JoannaMarieDiaz/Projects/tree/master/budgetapp"
+  },
+  "Project7": {
+    "name": "Kanji Anki App",
+    "URL": "https://pig-game-joanna.netlify.app/",
+    "description": ["Uses Sass library"],
+    "image": "/piggame.jpg"
+  },
+  "Project8": {
+    "name": "Lou C Recipe",
+    "URL": "https://pig-game-joanna.netlify.app/",
+    "description": ["Uses Sass library"],
+    "image": "/piggame.jpg"
+  }
+}

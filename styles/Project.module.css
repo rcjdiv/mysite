@@ -1,0 +1,125 @@
+.project {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* color: white; */
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  border: 1px solid #eaeaea;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+}
+
+.grid {
+  font-size: 1.2vw;
+  color: #444444;
+  background-size: 170vh;
+  max-width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 95vw;
+}
+
+.start {
+  width: 65%;
+  justify-content: flex-start;
+}
+
+.projectTitle {
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 30%;
+  height: 100px;
+  box-shadow: 1px 1px 2px 0.5px #b6b6b6;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: rgb(248, 144, 47);
+  border-color: rgb(228, 216, 204);
+  cursor: pointer;
+}
+
+.card h2 {
+  position: relative;
+  margin: 1rem;
+  left: 5%;
+}
+
+.image img {
+  float: right;
+  margin: 10px;
+  width: 40%;
+  right: 10%;
+  box-shadow: 0px 2px 3px 2px #ada2a2;
+}
+
+.details {
+  width: 40%;
+  margin: 10px;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.back {
+  position: relative;
+  bottom: 50px;
+  padding: 5px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+
+.back:hover {
+  color: black;
+}
+
+.preview {
+  width: 20%;
+  color: rgb(248, 144, 47);
+  margin: 10px;
+  padding-top: 10px;
+  line-height: 0.4;
+}
+
+.preview h3:hover {
+  color: rgb(255, 123, 0);
+  text-decoration: underline;
+}
+
+.preview p:hover {
+  color: rgb(255, 123, 0);
+  text-decoration: underline;
+}

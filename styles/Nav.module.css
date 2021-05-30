@@ -1,0 +1,57 @@
+.nav {
+  height: 120px;
+  padding: 10px;
+  /* background: rgb(243, 204, 168); */
+  background-image: url('../public/images/polygon3.svg');
+  background-size: 100%;
+  background-position: 50% 70%;
+  color: rgb(243, 204, 168);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px -5px 10px 5px #7a7a7a;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav li {
+  font-size: 1.8em;
+  font-weight: 800;
+  text-shadow: 2px 1px 0px rgb(56, 55, 53);
+}
+
+.nav li:hover {
+  color: rgb(248, 144, 47);
+  font-family: 'Pattaya', sans-serif;
+}
+
+.nav ul li a {
+  margin: 10px 15px;
+}
+
+.name {
+  position: absolute;
+  font-family: 'Pattaya', sans-serif;
+  left: 20%;
+  top: -6px;
+  color: black;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.name:hover {
+  color: rgb(248, 144, 47);
+  cursor: pointer;
+  text-shadow: 4px 3px 0px #7a7a7a;
+}
+
+.active {
+  font-family: 'Pattaya', sans-serif;
+  color: rgb(248, 144, 47);
+  text-shadow: 4px 3px 0px #7a7a7a;
+}
