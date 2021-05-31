@@ -31,7 +31,7 @@ const ContactForm = function () {
   };
 
   const clearForm = (e) => {
-    console.log('clicked!');
+    console.log('Will add message');
   };
 
   return (
@@ -93,7 +93,7 @@ const ContactForm = function () {
         )}
         <br />
         <button
-          //   onClick={clearForm}
+          onClick={clearForm}
           className={contactFormStyles.submitButton}
           type="submit"
         >
