@@ -17,7 +17,7 @@ const projects = () => {
       >
         <Link href="/">&larr; Main Page</Link>
       </div>
-      <Footer margin={80} />
+      <Footer margin={10} />
     </div>
   );
 };

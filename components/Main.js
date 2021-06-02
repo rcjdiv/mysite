@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 const Main = () => {
   return (
-    <div>
+    <div className={mainStyles.mainDiv}>
       <h1 className={mainStyles.title}>
         Hi 👋🏻 I'm <br />
         <span>Joanna Marie Diaz</span>
@@ -14,7 +14,7 @@ const Main = () => {
         <p>I created this portfolio with Next JS please leave a feedback 😉</p>
       </div>
       <div>
-        <img className={mainStyles.me} src="Me.jpg" alt="me" />
+        <img className={mainStyles.me} src="/images/profile.jpg" alt="me" />
       </div>
       <Footer margin={118} />
     </div>

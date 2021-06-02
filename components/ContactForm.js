@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import contactFormStyles from '../styles/Contact.module.css';
-import Footer from '../components/Footer';
+import Footer from './Footer';
 import axios from 'axios';
+import ReactDOM from 'react-dom';
 
 import { useForm } from 'react-hook-form';
 
 const ContactForm = function () {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
   const {
     register,
     handleSubmit,
@@ -13,6 +18,19 @@ const ContactForm = function () {
   } = useForm();
 
   const registerUser = async (datas) => {
+    console.log(name);
+    const appearMessage = React.createElement(
+      'h4',
+      {},
+      'Your Message has been sent!'
+    );
+    if (Object.keys(errors).length === 0) {
+      ReactDOM.render(
+        appearMessage,
+        document.querySelector('.feedBackMessage')
+      );
+    }
+
     let config = {
       method: 'POST',
       url: 'api/register',
@@ -25,13 +43,20 @@ const ContactForm = function () {
     try {
       const response = await axios(config);
       console.log(response);
+      if (response === 200) {
+        reset();
+      }
     } catch (error) {
       console.log(error);
     }
   };
 
-  const clearForm = (e) => {
-    console.log('Will add message');
+  const afterSubmit = (e) => {
+    setName('');
+    setEmail('');
+    setMessage('');
+    document.querySelectorAll('input').defaultValue = '';
+    document.querySelector('#message').defaultValue = '';
   };
 
   return (
@@ -47,6 +72,10 @@ const ContactForm = function () {
             maxLength: 20,
           })}
           className={contactFormStyles.input}
+          placeholder="Enter your name"
+          type="text"
+          onChange={(e) => setName(e.target.value)}
+          value={name}
         />
 
         {errors && (
@@ -64,7 +93,10 @@ const ContactForm = function () {
             pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
           })}
           className={contactFormStyles.input}
-          placeholder="please enter your email"
+          placeholder="Enter your email"
+          type="text"
+          onChange={(e) => setEmail(e.target.value)}
+          value={email}
         />
         {errors && (
           <div style={{ color: 'red' }}>
@@ -78,8 +110,11 @@ const ContactForm = function () {
         <textarea
           {...register('message', { required: true, maxLength: 300 })}
           className={contactFormStyles.input}
+          id="message"
           rows="5"
           cols="20"
+          onChange={(e) => setMessage(e.target.value)}
+          value={message}
         ></textarea>
         {errors && (
           <div style={{ color: 'red' }}>
@@ -92,8 +127,12 @@ const ContactForm = function () {
           </div>
         )}
         <br />
+        <div
+          className="feedBackMessage"
+          style={{ color: 'green', fontSize: '1.2em' }}
+        ></div>
         <button
-          onClick={clearForm}
+          onClick={afterSubmit}
           className={contactFormStyles.submitButton}
           type="submit"
         >

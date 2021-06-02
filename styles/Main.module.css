@@ -1,9 +1,12 @@
+.mainDiv {
+  width: 100%;
+}
+
 .me {
   position: absolute;
-  max-width: 27%;
-  height: 24%;
-  top: 50px;
-  left: 270px;
+  max-width: 12%;
+  left: 19%;
+  top: 7%;
   border-radius: 50%;
   border: 1px solid rgb(243, 204, 168);
 }
@@ -37,4 +40,10 @@
   line-height: 1.5;
   font-size: 1.2rem;
   color: #444444;
+}
+
+@media screen and (max-width: 590px) {
+  .me {
+    top: 3%;
+  }
 }
