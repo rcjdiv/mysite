@@ -4,6 +4,7 @@ import style from '../styles/Layout.module.css';
 import Head from 'next/head';
 
 const Layout = ({ children }) => {
+  const name = 'Joanna Marie Diaz';
   return (
     <>
       <Head>

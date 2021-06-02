@@ -1,5 +1,5 @@
 .nav {
-  height: 120px;
+  height: 35%;
   padding: 10px;
   /* background: rgb(243, 204, 168); */
   background-image: url('../public/images/polygon3.svg');
@@ -10,38 +10,42 @@
   align-items: center;
   justify-content: center;
   box-shadow: 1px -5px 10px 5px #7a7a7a;
+  /* overflow: hidden; */
 }
 
-.nav ul {
+.topNav ul {
   display: flex;
   justify-content: center;
   align-items: center;
   list-style: none;
+  z-index: 10;
 }
 
-.nav li {
-  font-size: 1.8em;
+.topNav li {
+  font-size: 2.8vw;
   font-weight: 800;
   text-shadow: 2px 1px 0px rgb(56, 55, 53);
+  z-index: 10;
 }
 
-.nav li:hover {
+.topNav li:hover {
   color: rgb(248, 144, 47);
   font-family: 'Pattaya', sans-serif;
 }
 
-.nav ul li a {
+.topNav ul li a {
   margin: 10px 15px;
 }
 
 .name {
   position: absolute;
   font-family: 'Pattaya', sans-serif;
-  left: 20%;
-  top: -6px;
+  left: 15%;
+  top: -15px;
   color: black;
   font-weight: 800;
-  font-size: 1.5em;
+  font-size: 2vw;
+  z-index: 10;
 }
 
 .name:hover {
@@ -54,4 +58,92 @@
   font-family: 'Pattaya', sans-serif;
   color: rgb(248, 144, 47);
   text-shadow: 4px 3px 0px #7a7a7a;
+}
+
+.icon {
+  position: absolute;
+  height: 220px;
+  width: 100%;
+  top: 7%;
+}
+
+.burgerButton {
+  width: 32px;
+  height: 3px;
+  background-color: rgb(248, 144, 47);
+  margin: 1% 70%;
+  left: 40%;
+  z-index: 10;
+}
+
+.burgerButton:hover {
+  color: rgb(172, 83, 0);
+}
+
+.listContainer {
+  position: relative;
+  top: 14%;
+  width: 100%;
+  height: 70%;
+  z-index: 3;
+  background: white;
+  padding-top: 10%;
+}
+
+/* greater than 600px */
+@media screen and (min-width: 590px) {
+  .listContainer {
+    display: none;
+  }
+
+  .burgerButton {
+    display: none;
+  }
+}
+
+/* less than 600px */
+@media screen and (max-width: 600px) {
+  /* .topNav {
+    display: none;
+  } */
+  .icon {
+    float: right;
+    display: block;
+    right: 0;
+  }
+
+  .listContainer {
+    display: block;
+  }
+
+  .topNav ul {
+    display: none;
+  }
+
+  .resListItems li {
+    width: 80%;
+    position: relative;
+    top: -10vw;
+    margin: 5px auto;
+    font-size: 4.5vw;
+    list-style: none;
+    text-align: center;
+  }
+
+  .resListItems li:hover {
+    text-decoration: underline;
+  }
+
+  .nav {
+    background-position: 50% 90%;
+    height: 100px;
+  }
+
+  .name {
+    position: absolute;
+    top: 5px;
+    color: rgb(243, 204, 168);
+    left: 20%;
+    font-size: 3vw;
+  }
 }
