@@ -9,7 +9,7 @@ const Project = () => {
         <div className={projectStyles.card}>
           <h2>{el.name}</h2>
           <div className={projectStyles.image}>
-            <img src={el.image} alt="piggame" />
+            <img src={el.image} alt={el.name} />
           </div>
         </div>
 

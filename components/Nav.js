@@ -67,9 +67,11 @@ const Nav = () => {
         </nav>
 
         <div className={navStyles.icon} id="burger">
-          <div className={navStyles.burgerButton} onClick={toggleNavbar}></div>
-          <div className={navStyles.burgerButton} onClick={toggleNavbar}></div>
-          <div className={navStyles.burgerButton} onClick={toggleNavbar}></div>
+          <div className={navStyles.burgerToggle} onClick={toggleNavbar}>
+            <div className={navStyles.burgerButton}></div>
+            <div className={navStyles.burgerButton}></div>
+            <div className={navStyles.burgerButton}></div>
+          </div>
           <div id="respNav"></div>
         </div>
       </div>

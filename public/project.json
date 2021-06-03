@@ -48,16 +48,23 @@
   },
   "Project5": {
     "name": "Budget App",
-    "URL": "https://pig-game-joanna.netlify.app/",
+    "URL": "https://budget-app-eight.vercel.app/",
     "description": [
       "Uses React Framework",
       "Basic State maniputation",
       "Uses Bootstrap Framework"
     ],
     "image": "/images/budgetApp.png",
-    "github": "https://github.com/JoannaMarieDiaz/Projects/tree/master/budgetapp"
+    "github": "https://github.com/JoannaMarieDiaz/budgetapp"
   },
   "Project6": {
+    "name": "Kanji Anki App",
+    "URL": "https://jlptn3-kanji.vercel.app/",
+    "description": ["Uses Sass library"],
+    "image": "/images/n3-kanji-app.png",
+    "github": "https://github.com/JoannaMarieDiaz/N3-Kanji"
+  },
+  "Project7": {
     "name": "Burger App",
     "URL": "https://pig-game-joanna.netlify.app/",
     "description": [
@@ -67,17 +74,5 @@
     ],
     "image": "/images/budgetApp.png",
     "github": "https://github.com/JoannaMarieDiaz/Projects/tree/master/budgetapp"
-  },
-  "Project7": {
-    "name": "Kanji Anki App",
-    "URL": "https://pig-game-joanna.netlify.app/",
-    "description": ["Uses Sass library"],
-    "image": "/piggame.jpg"
-  },
-  "Project8": {
-    "name": "Lou C Recipe",
-    "URL": "https://pig-game-joanna.netlify.app/",
-    "description": ["Uses Sass library"],
-    "image": "/piggame.jpg"
   }
 }

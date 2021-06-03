@@ -9,13 +9,13 @@ const List = () => {
   return (
     <>
       <ul className={navStyles.resListItems}>
-        <li>
+        <li className={navStyles.list}>
           <a href="/about">About</a>
         </li>
-        <li>
+        <li className={navStyles.list}>
           <a href="/projects">Projects</a>
         </li>
-        <li>
+        <li className={navStyles.list}>
           <a href="/contact">Contact</a>
         </li>
       </ul>
