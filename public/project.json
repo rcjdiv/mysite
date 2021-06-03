@@ -60,7 +60,12 @@
   "Project6": {
     "name": "Kanji Anki App",
     "URL": "https://jlptn3-kanji.vercel.app/",
-    "description": ["Uses Sass library"],
+    "description": [
+      "Created with React JS",
+      "Uses React Hooks",
+      "Uses loadash for array manipulation",
+      "Uses Bootstrap for minimal design"
+    ],
     "image": "/images/n3-kanji-app.png",
     "github": "https://github.com/JoannaMarieDiaz/N3-Kanji"
   },
