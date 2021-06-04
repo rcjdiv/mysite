@@ -25,7 +25,7 @@ const Project = () => {
             <h3>Preview</h3>
           </a>
           <a href={el.github} target="_blank">
-            <p>Github Source Code</p>
+            <p style={{ lineHeight: '1.2' }}>Github Source Code</p>
           </a>
         </div>
       </div>
