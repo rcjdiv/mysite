@@ -71,11 +71,11 @@
   },
   "Project7": {
     "name": "Burger App",
-    "URL": "https://pig-game-joanna.netlify.app/",
+    "URL": "https://temp-page-joanna.netlify.app/",
     "description": [
       "Uses React Framework",
-      "Basic State maniputation",
-      "Uses Bootstrap Framework"
+      "Uses Redux",
+      "Deploy with Next JS"
     ],
     "image": "/images/budgetApp.png",
     "github": "https://github.com/JoannaMarieDiaz/burger-builder"
