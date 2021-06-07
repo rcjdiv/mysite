@@ -74,7 +74,7 @@
     "URL": "https://temp-page-joanna.netlify.app/",
     "description": [
       "Uses React Framework",
-      "Uses Redux",
+      "Uses Redux library",
       "Deploy with Next JS"
     ],
     "image": "/images/budgetApp.png",
