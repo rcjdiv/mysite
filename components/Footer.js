@@ -23,13 +23,13 @@ const Footer = (props) => {
             alt="github logo"
           />
         </a>
-        <a href="https://www.facebook.com/j.annamarie.d/" target="_blank">
+        {/* <a href="https://www.facebook.com/j.annamarie.d/" target="_blank">
           <img
             className={footerStyles.github}
             src="facebook.png"
             alt="facebook logo"
           />
-        </a>
+        </a> */}
       </div>
     </div>
   );

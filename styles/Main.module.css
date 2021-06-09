@@ -47,3 +47,9 @@
     top: 3%;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .mainDiv {
+    height: 80vh;
+  }
+}

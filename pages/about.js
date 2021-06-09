@@ -8,6 +8,7 @@ const about = () => {
     <>
       <div className={aboutStyles.about}>
         <Head>
+          <meta content="width=device-width, initial-scale=1" name="viewport" />
           <title>About</title>
         </Head>
 
@@ -17,10 +18,12 @@ const about = () => {
           <h4>Hello, I'm Joanna.</h4>
           <p>
             &emsp;I love reading books and listening to music. And since I
-            started to dig deep into coding, it became my passion.
+            started to dig deep into coding, it became my passion. I started to
+            keep on learning and building projects without taking notes of the
+            time.
           </p>
           <p>
-            &emsp; I graduated on{' '}
+            &emsp;I graduated of{' '}
             <span className={aboutStyles.course}>
               Bachelor of Science in Computer Engineering{' '}
             </span>
@@ -97,7 +100,7 @@ const about = () => {
           <Link href="/">&larr; Main Page</Link>
         </div>
       </div>
-      <Footer margin={80} />
+      <Footer margin={50} />
     </>
   );
 };

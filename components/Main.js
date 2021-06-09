@@ -16,7 +16,7 @@ const Main = () => {
       <div>
         <img className={mainStyles.me} src="/images/profile.jpg" alt="me" />
       </div>
-      <Footer margin={118} />
+      <Footer margin={165} />
     </div>
   );
 };

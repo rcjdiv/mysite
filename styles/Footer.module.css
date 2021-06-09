@@ -11,7 +11,7 @@
   background-image: url('../public/images/polygon3.png');
   background-size: 100%;
   background-position: 50% 30%;
-  box-shadow: 10px 3px 15px 3px #a09797;
+  box-shadow: 3px 3px 5px 3px #a09797;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,6 +28,8 @@
   text-align: center;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .logo img {
