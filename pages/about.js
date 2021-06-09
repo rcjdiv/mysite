@@ -100,7 +100,7 @@ const about = () => {
           <Link href="/">&larr; Main Page</Link>
         </div>
       </div>
-      <Footer margin={80} />
+      <Footer margin={50} />
     </>
   );
 };
