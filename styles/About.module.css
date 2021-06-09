@@ -43,13 +43,13 @@
 
 @media screen and (max-width: 595px) {
   .about {
-    height: 420vh;
+    height: 400vh;
   }
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
   .about {
-    height: 320vh;
+    height: 300vh;
   }
 }
 
