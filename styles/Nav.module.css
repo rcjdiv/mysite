@@ -154,7 +154,7 @@
 
   .name {
     position: absolute;
-    top: 5px;
+    top: 20px;
     color: rgb(243, 204, 168);
     left: 20%;
     font-size: 3vw;
@@ -163,5 +163,11 @@
   .list:hover {
     text-decoration: underline;
     color: rgb(248, 144, 47);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .name {
+    top: 5px;
   }
 }

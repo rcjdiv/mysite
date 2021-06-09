@@ -35,7 +35,7 @@
     "github": "https://github.com/JoannaMarieDiaz/Forkify.git"
   },
   "Project4": {
-    "name": "YelpCamp",
+    "name": "Yelp Camp",
     "URL": "https://yelp-camp-joanna.herokuapp.com/",
     "description": [
       "Uses MongoDB and Mongoose and Passport",

@@ -11,7 +11,7 @@ const Main = () => {
       </h1>
       <div className={mainStyles.description}>
         <h2>and I'm a Web Developer</h2>
-        <p>I created this portfolio with Next JS please leave a feedback 😉</p>
+        <p>I created this portfolio using Next JS please leave a feedback 😉</p>
       </div>
       <div>
         <img className={mainStyles.me} src="/images/profile.jpg" alt="me" />

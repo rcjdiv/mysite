@@ -1,7 +1,6 @@
 .about {
   font-family: 'Texturina', serif;
   width: 75%;
-  height: 260vh;
   margin: 0 auto;
   box-shadow: 0px 10px 12px 10px rgb(243, 204, 168);
   padding: 30px;
@@ -40,21 +39,56 @@
 .changePage:hover {
   color: rgb(243, 204, 168);
 }
+@media screen and (max-width: 359px) {
+  .about {
+    height: 420vh;
+  }
+}
 
-@media screen and (max-width: 595px) {
+@media (min-width: 360px) and (max-width: 399px) {
+  .about {
+    height: 380vh;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 419px) {
+  .about {
+    height: 340vh;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 459px) {
+  .about {
+    height: 340vh;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 499px) {
   .about {
     height: 300vh;
   }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 500px) and (max-width: 649px) {
+  .about {
+    height: 280vh;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 814px) {
+  .about {
+    height: 250vh;
+  }
+}
+
+@media (min-width: 815px) and (max-width: 929px) {
   .about {
     height: 240vh;
   }
 }
 
-@media (min-width: 905px) and (max-width: 1200px) {
+@media (min-width: 930px) and (max-width: 1200px) {
   .about {
-    height: 200vh;
+    height: 230vh;
   }
 }
