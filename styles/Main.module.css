@@ -1,5 +1,7 @@
 .mainDiv {
   width: 100%;
+  margin: 0 auto;
+  height: 80vh;
 }
 
 .me {
@@ -46,10 +48,14 @@
   .me {
     top: 3%;
   }
+
+  .mainDiv {
+    height: 20vh;
+  }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 900px) {
   .mainDiv {
-    height: 80vh;
+    height: 50vh;
   }
 }
