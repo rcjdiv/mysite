@@ -41,33 +41,33 @@
   color: rgb(243, 204, 168);
 }
 
-@media screen and (max-width: 349px) {
+@media screen and (max-width: 399px) {
   .about {
     height: 420vh;
   }
 }
 
-@media (min-width: 350px) and (max-width: 419px) {
+@media (min-width: 400px) and (max-width: 419px) {
   .about {
-    height: 280vh;
+    height: 360vh;
   }
 }
 
 @media (min-width: 420px) and (max-width: 599px) {
   .about {
-    height: 250vh;
+    height: 300vh;
   }
 }
 
-@media (min-width: 600px) and (max-width: 799px) {
+@media (min-width: 600px) and (max-width: 814px) {
   .about {
     height: 250vh;
   }
 }
 
-@media (min-width: 800px) and (max-width: 950px) {
+@media (min-width: 815px) and (max-width: 950px) {
   .about {
-    height: 280vh;
+    height: 200vh;
   }
 }
 
