@@ -41,27 +41,33 @@
   color: rgb(243, 204, 168);
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 349px) {
   .about {
     height: 420vh;
   }
 }
 
-@media (min-width: 400px) and (max-width: 599px) {
+@media (min-width: 350px) and (max-width: 419px) {
   .about {
-    height: 360vh;
+    height: 280vh;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 599px) {
+  .about {
+    height: 250vh;
   }
 }
 
 @media (min-width: 600px) and (max-width: 799px) {
   .about {
-    height: 300vh;
+    height: 250vh;
   }
 }
 
 @media (min-width: 800px) and (max-width: 950px) {
   .about {
-    height: 220vh;
+    height: 280vh;
   }
 }
 
