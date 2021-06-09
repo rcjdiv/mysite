@@ -47,13 +47,19 @@
   }
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 600px) and (max-width: 799px) {
+  .about {
+    height: 320vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 950px) {
   .about {
     height: 220vh;
   }
 }
 
-@media (min-width: 905px) and (max-width: 1200px) {
+@media (min-width: 960px) and (max-width: 1200px) {
   .about {
     height: 200vh;
   }
