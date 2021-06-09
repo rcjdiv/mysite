@@ -41,37 +41,49 @@
   color: rgb(243, 204, 168);
 }
 
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 329px) {
   .about {
     height: 420vh;
   }
 }
 
-@media (min-width: 380px) and (max-width: 459px) {
+@media (min-width: 330px) and (max-width: 419px) {
   .about {
-    height: 360vh;
+    height: 330vh;
   }
 }
 
-@media (min-width: 420px) and (max-width: 599px) {
+@media (min-width: 420px) and (max-width: 459px) {
+  .about {
+    height: 380vh;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 499px) {
   .about {
     height: 300vh;
   }
 }
 
-@media (min-width: 600px) and (max-width: 814px) {
+@media (min-width: 500px) and (max-width: 649px) {
+  .about {
+    height: 300vh;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 814px) {
   .about {
     height: 250vh;
   }
 }
 
-@media (min-width: 815px) and (max-width: 959px) {
+@media (min-width: 815px) and (max-width: 929px) {
   .about {
     height: 220vh;
   }
 }
 
-@media (min-width: 960px) and (max-width: 1200px) {
+@media (min-width: 930px) and (max-width: 1200px) {
   .about {
     height: 230vh;
   }
