@@ -41,13 +41,13 @@
   color: rgb(243, 204, 168);
 }
 
-@media screen and (max-width: 329px) {
+@media screen and (max-width: 379px) {
   .about {
     height: 420vh;
   }
 }
 
-@media (min-width: 330px) and (max-width: 419px) {
+@media (min-width: 380px) and (max-width: 419px) {
   .about {
     height: 330vh;
   }
@@ -55,7 +55,7 @@
 
 @media (min-width: 420px) and (max-width: 459px) {
   .about {
-    height: 380vh;
+    height: 340vh;
   }
 }
 
