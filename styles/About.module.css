@@ -1,7 +1,7 @@
 .about {
   font-family: 'Texturina', serif;
   width: 75%;
-  height: 220vh;
+/*   height: 220vh; */
   margin: 0 auto;
   box-shadow: 0px 10px 12px 10px rgb(243, 204, 168);
   padding: 30px;
@@ -41,15 +41,9 @@
   color: rgb(243, 204, 168);
 }
 
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 419px) {
   .about {
     height: 420vh;
-  }
-}
-
-@media (min-width: 380px) and (max-width: 419px) {
-  .about {
-    height: 330vh;
   }
 }
 
@@ -67,7 +61,7 @@
 
 @media (min-width: 500px) and (max-width: 649px) {
   .about {
-    height: 300vh;
+    height: 290vh;
   }
 }
 
