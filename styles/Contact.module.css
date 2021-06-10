@@ -6,6 +6,8 @@
   box-shadow: 0px 10px 12px 10px rgb(243, 204, 168);
   padding: 30px;
   color: #444444;
+  width: 75%;
+  overflow: hidden;
 }
 
 .contactTitle {
@@ -61,13 +63,15 @@
 }
 
 .submitButton {
-  width: 30%;
+  width: 35%;
   padding: 8px;
   margin: 10px auto;
   background-color: rgb(248, 144, 47);
   border: none;
   border-radius: 5px;
   color: white;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .submitButton:hover {
@@ -88,6 +92,12 @@
 
 @media screen and (max-width: 590px) {
   .contact {
-    height: 225vh;
+    height: 260vh;
+  }
+}
+
+@media (min-width: 591) and (max-width: 900px) {
+  .contact {
+    height: 220vh;
   }
 }
