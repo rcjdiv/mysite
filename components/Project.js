@@ -15,8 +15,8 @@ const Project = () => {
 
         <div className={projectStyles.details}>
           <ul>
-            {el.description.map((e) => (
-              <li>{e}</li>
+            {el.description.map((e, i) => (
+              <li key={i}>{e}</li>
             ))}
           </ul>
         </div>
