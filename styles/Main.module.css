@@ -47,7 +47,8 @@
 
 @media screen and (max-width: 590px) {
   .me {
-    top: 3%;
+    display: none;
+    /* top: 3%; */
   }
 
   .mainDiv {
