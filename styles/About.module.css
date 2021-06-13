@@ -2,7 +2,7 @@
   font-family: 'Texturina', serif;
   width: 75%;
   margin: 0 auto;
-  box-shadow: 0px 10px 12px 10px rgb(243, 204, 168);
+  box-shadow: 3px 3px 8px 2px rgb(243, 204, 168);
   padding: 30px;
   color: #444444;
   overflow: hidden;
@@ -42,31 +42,37 @@
 }
 @media screen and (max-width: 359px) {
   .about {
-    height: 430vh;
+    height: 400vh;
+    width: 90%;
   }
 }
 
 @media (min-width: 360px) and (max-width: 399px) {
   .about {
-    height: 400vh;
+    height: 380vh;
+    width: 90%;
+
   }
 }
 
 @media (min-width: 400px) and (max-width: 419px) {
   .about {
-    height: 340vh;
+    height: 300vh;
+    width: 90%;
   }
 }
 
 @media (min-width: 420px) and (max-width: 459px) {
   .about {
-    height: 340vh;
+    height: 300vh;
+    width: 90%;
   }
 }
 
 @media (min-width: 460px) and (max-width: 499px) {
   .about {
-    height: 300vh;
+    height: 280vh;
+    width: 90%;
   }
 }
 

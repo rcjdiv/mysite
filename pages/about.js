@@ -18,7 +18,7 @@ const about = () => {
           <h4>Hello, I'm Joanna.</h4>
           <p>
             &emsp;I love reading books and listening to music. And since I
-            started to dig deep into coding, coding had became my passion. I
+            started to dig deep into coding, coding has became my passion. I
             started to keep on learning and building projects and for me, it was
             fun.
           </p>
