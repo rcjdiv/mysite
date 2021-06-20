@@ -17,10 +17,9 @@ const about = () => {
         <section className="intro">
           <h4>Hello, I'm Joanna.</h4>
           <p>
-            &emsp;I love reading books and listening to music. And since I
-            started to dig deep into coding, coding has became my passion. I
-            started to keep on learning and building projects and for me, it was
-            fun.
+            &emsp;I love reading books and listening to music, and since I
+            started to dig deep into coding, coding has become my passion. I
+            started to keep on learning and building projects.
           </p>
           <p>
             &emsp;I graduated of{' '}
@@ -31,7 +30,7 @@ const about = () => {
             curiculum mostly focus on the hardware and troubleshooting part and
             barely study beyond the basics of some programming language. And
             since I graduated, I started to work on a field that is in demand on
-            my place. And that is Production Engineering. Below are my past
+            my place, and that is Production Engineering. Below are my past
             experience as a Production Engineer. &darr;
           </p>
         </section>
@@ -59,7 +58,7 @@ const about = () => {
             <p>
               &emsp; Changing career from hardware to software is a tough one.
               But by having knowledge on some programming language like Visual
-              Basic, Java, C++ and Python learning JavaScript syntax and
+              Basic, C++ and Python learning JavaScript syntax and
               algorithm become familiar for me.
             </p>
             <p>
