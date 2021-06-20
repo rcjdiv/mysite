@@ -26,7 +26,7 @@ const about = () => {
             <span className={aboutStyles.course}>
               Bachelor of Science in Computer Engineering{' '}
             </span>
-            at a province in the Philippines. Though I major on computer, our
+            in the Philippines. Though I major on computer, our
             curiculum mostly focus on the hardware and troubleshooting part and
             barely study beyond the basics of some programming language. And
             since I graduated, I started to work on a field that is in demand on
