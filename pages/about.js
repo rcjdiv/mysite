@@ -58,7 +58,7 @@ const about = () => {
             <p>
               &emsp; Changing career from hardware to software is a tough one.
               But by having knowledge on some programming language like Visual
-              Basic, C++ and Python learning JavaScript syntax and
+              Basic, Java, C++ and Python learning JavaScript syntax and
               algorithm become familiar for me.
             </p>
             <p>
