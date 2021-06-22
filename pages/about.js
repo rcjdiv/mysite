@@ -19,19 +19,18 @@ const about = () => {
           <p>
             &emsp;I love reading books and listening to music. And since I
             started to dig deep into coding, coding has became my passion. I
-            started to keep on learning and building projects and for me, it was
-            fun.
+            started to keep on learning and building projects.
           </p>
           <p>
             &emsp;I graduated of{' '}
             <span className={aboutStyles.course}>
               Bachelor of Science in Computer Engineering{' '}
             </span>
-            at a province in the Philippines. Though I major on computer, our
-            curiculum mostly focus on the hardware and troubleshooting part and
-            barely study beyond the basics of some programming language. And
-            since I graduated, I started to work on a field that is in demand on
-            my place. And that is Production Engineering. Below are my past
+            in the Philippines. Though I major in computer and our curiculum
+            mostly focus on the hardware and troubleshooting part and barely
+            study beyond the basics of some programming language. And since I
+            graduated, I started to work on a field that is in demand on my
+            place. And that is Production Engineering. Below are my past
             experience as a Production Engineer. &darr;
           </p>
         </section>

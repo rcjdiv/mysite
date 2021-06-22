@@ -42,14 +42,14 @@
 }
 @media screen and (max-width: 359px) {
   .about {
-    height: 360vh;
+    height: 4000vh;
     width: 90%;
   }
 }
 
 @media (min-width: 360px) and (max-width: 399px) {
   .about {
-    height: 350vh;
+    height: 380vh;
     width: 90%;
   }
 }
