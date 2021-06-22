@@ -28,8 +28,8 @@ const about = () => {
             </span>
             in the Philippines. Though I major on computer, our
             curiculum mostly focus on the hardware and troubleshooting part and
-            barely study beyond the basics of some programming language. And
-            since I graduated, I started to work on a field that is in demand on
+            barely study beyond the basics of some programming language.
+            And since I graduated, I started to work on a field that is in demand on
             my place, and that is Production Engineering. Below are my past
             experience as a Production Engineer. &darr;
           </p>
