@@ -51,6 +51,7 @@
   .about {
     height: 380vh;
     width: 90%;
+
   }
 }
 
@@ -89,7 +90,7 @@
 
 @media (min-width: 815px) and (max-width: 929px) {
   .about {
-    height: 240vh;
+    height: 230vh;
   }
 }
 
