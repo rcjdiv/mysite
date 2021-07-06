@@ -15,7 +15,7 @@ const contact = () => {
           <h3>Phone no:</h3>
           <h4>&emsp; +81 8055023157</h4>
           <h3>My contact address</h3>
-          <h4>&emsp; Nishi Koiwa, Edogawa-ku, Tokyo-to, Japan</h4>
+          <h4>&emsp; Edogawa-ku, Tokyo-to, Japan</h4>
         </div>
         <br />
         <hr className={contactStyles.hr} />
