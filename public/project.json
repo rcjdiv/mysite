@@ -21,31 +21,6 @@
     "image": "/images/mapty.png",
     "github": "https://github.com/JoannaMarieDiaz/Projects/tree/master/Mapty"
   },
-  "Project3": {
-    "name": "Forkify",
-    "URL": "https://forkify-app-joanna.netlify.app",
-    "description": [
-      "Vanilla JS",
-      "Uses Sass library",
-      "Uses Object Oriented Programming",
-      "Fetching data from API using Async function",
-      "Implemented MVC architecture"
-    ],
-    "image": "/forkify.png",
-    "github": "https://github.com/JoannaMarieDiaz/Forkify.git"
-  },
-  "Project4": {
-    "name": "Yelp Camp",
-    "URL": "https://yelp-camp-joanna.herokuapp.com/",
-    "description": [
-      "Uses MongoDB and Mongoose and Passport",
-      "Uses Express",
-      "Uses Joi Middleware for Express Validation",
-      "Connect to Mapbox API for Geolocation"
-    ],
-    "image": "/images/yelpcamp.png",
-    "github": "https://github.com/JoannaMarieDiaz/YelpCamp"
-  },
   "Project5": {
     "name": "Budget App",
     "URL": "https://budget-app-eight.vercel.app/",
@@ -68,16 +43,5 @@
     ],
     "image": "/images/n3-kanji-app.png",
     "github": "https://github.com/JoannaMarieDiaz/N3-Kanji"
-  },
-  "Project7": {
-    "name": "Burger App",
-    "URL": "https://temp-page-joanna.netlify.app/",
-    "description": [
-      "Uses React Framework",
-      "Uses Redux library",
-      "Deploy with Next JS"
-    ],
-    "image": "/images/budgetApp.png",
-    "github": "https://github.com/JoannaMarieDiaz/burger-builder"
   }
 }
