@@ -12,8 +12,6 @@ const contact = () => {
         <div className={contactStyles.mail}>
           <h3>My email address:</h3>
           <h4>&emsp; joannamarie838@gmail.com</h4>
-          <h3>Phone no:</h3>
-          <h4>&emsp; +81 8055023157</h4>
           <h3>My contact address</h3>
           <h4>&emsp; Edogawa-ku, Tokyo-to, Japan</h4>
         </div>
