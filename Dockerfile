@@ -35,4 +35,4 @@ COPY --from=build /app/package.json ./package.json
 EXPOSE 8000
 
 # Step 12: Command to start the Next.js app in production mode
-CMD ["npm", "start"]
+CMD ["npm", "start", "--", "-H", "0.0.0.0", "-p", "8000"]
